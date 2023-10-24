@@ -1,0 +1,71 @@
+.episode-grid,
+.location-grid,
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.episode-item,
+.location-item,
+.character-item {
+  text-align: center;
+}
+
+.episode-section,
+.location-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  border-radius: 10px;
+  min-height: 200px;
+}
+
+.location-section {
+  background-color: #343A46;
+}
+
+.episode-section {
+  background-color: #2D3142;
+}
+
+.location-section h3 {
+  margin: 0;
+}
+
+.character-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.input-search-location[type='text'],
+.input-search-episode[type='text'],
+.input-search-character[type='text'] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  width: 100%; 
+  box-sizing: border-box;
+}
+
+.button-generate-other-episodes,
+.button-generate-other-locations,
+.button-generate-other-characters {
+  margin-bottom: 20px;
+}
+
+.button-choose-another-episode,
+.button-choose-another-residence,
+.button-generate-other-locations,
+.button-generate-other-characters,
+.button-character-information,
+.button-location-information,
+.button-choose-another-character {
+  cursor: pointer;
+}

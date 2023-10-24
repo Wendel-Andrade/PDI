@@ -1,0 +1,10 @@
+.container {
+  width: 300px;
+  background-color: #000000;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+.name,
+.age {
+  color: #fca311;
+}

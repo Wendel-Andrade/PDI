@@ -1,0 +1,9 @@
+.section-buttons-switching-pages {
+  display: flex;
+}
+
+.button-episodes-page,
+.button-locations-page,
+.button-characters-page {
+  cursor: pointer;
+}
